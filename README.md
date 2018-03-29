@@ -18,5 +18,5 @@ Super Monitoring service main features:
 Available in English, Spanish and Polish.
 
 # Changelog
-#### 1.0.6 - released 2017-02-06
+#### 2.0.1 - released 2018-03-29
 - Change the URL of the XML file which contains that extension's individual update definitions manifest.xml
