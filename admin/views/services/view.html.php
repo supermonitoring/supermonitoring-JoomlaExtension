@@ -30,16 +30,18 @@ class SuperMonitoringViewServices extends JViewLegacy {
         $this->serviceDomain = SuperMonitoringHelper::getServiceDomainByLang();
 
         // Check for errors.
-        if (count($errors = $this->get('Errors'))) {
-            JError::raiseError(500, implode('<br />', $errors));
+		$errors = $errors = $this->get('Errors');
+		if(is_array($errors) && count($errors = $this->get('Errors'))) {
+			 JError::raiseError(500, implode('<br />', $errors));
             return false;
-        }
+		}
 
         // Set the toolbar
         $this->addToolBar();
 
         // Display the template
         parent::display($tpl);
+		
     }
 
     /**
