@@ -30,10 +30,10 @@ class SuperMonitoringViewContacts extends JViewLegacy {
         $this->serviceDomain = SuperMonitoringHelper::getServiceDomainByLang();
 
         // Check for errors.
-        if (count($errors = $this->get('Errors'))) {
+        /*if (count($errors = $this->get('Errors'))) {
             JError::raiseError(500, implode('<br />', $errors));
             return false;
-        }
+        }*/
 
         // Set the toolbar
         $this->addToolBar();
