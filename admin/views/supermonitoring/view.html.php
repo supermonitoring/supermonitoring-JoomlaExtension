@@ -32,14 +32,19 @@ class SuperMonitoringViewSuperMonitoring extends JViewLegacy {
 		
 		$mainframe = JFactory::getApplication();
 		
-        $isCorrect = $this->getApiResponse($token['token']);
+		if(isset($token['token'])) {
+			$isCorrect = $this->getApiResponse($token['token']);
+		}      
         
 		$id = $jinput->get('id', NULL, 'STRING');
 		
-        if ($isCorrect == '0' && $id!=1) {
+		if(isset($isCorrect)) {
+			 if ($isCorrect == '0' && $id!=1) {
         	 
             $mainframe->redirect('index.php?option=com_supermonitoring&id=1',JTEXT::_('COM_SUPERMONITORING_TOKEN_ERROR',true),'error');
         }
+		}
+       
         
         
         if(empty($id)) {

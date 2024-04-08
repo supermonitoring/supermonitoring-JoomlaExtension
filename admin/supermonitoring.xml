@@ -4,13 +4,13 @@
            method="upgrade">
 
   <name>COM_SUPERMONITORING</name>
-  <creationDate>April 2024</creationDate>
+  <creationDate>March 2018</creationDate>
   <author>SITEIMPULSE</author>
   <authorEmail></authorEmail>
-  <authorUrl>https://www.siteimpulse.com/</authorUrl>
-  <copyright>Copyright (C) SITEIMPULSE</copyright>
+  <authorUrl>http://www.siteimpulse.com/</authorUrl>
+  <copyright>Copyright (C) 2015 SITEIMPULSE</copyright>
   <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
-  <version>2.2.0</version>
+  <version>2.0.0</version>
   <description>Monitor your website uptime with www.supermonitoring.com services - and have the reports displayed in your Joomla panel.</description>
     
   <!-- Runs on install/uninstall/update; New from 2.5 -->

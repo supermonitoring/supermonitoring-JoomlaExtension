@@ -12,7 +12,7 @@ defined('_JEXEC') or die('Restricted Access');
 
 JHtml::addIncludePath(JPATH_COMPONENT . '/helpers/html');
 
-JHtml::_('behavior.formvalidation');
+JHtml::_('behavior.formvalidator');
 JHtml::_('formbehavior.chosen', 'select');
 ?>
 <form action="<?php echo JRoute::_('index.php?option=com_supermonitoring&id=1'); ?>" method="post" name="adminForm"  id="adminForm" class="form-validate">
@@ -30,7 +30,7 @@ JHtml::_('formbehavior.chosen', 'select');
             </div>    
             <div class="span9">           
                 <div class="form-vertical">
-                    <?php echo $this->form->getControlGroup('token'); ?>
+                    <?php echo $this->form->renderField('token'); ?>
                 </div>
             </div>
             <div class="span3">
