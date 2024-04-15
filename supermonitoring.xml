@@ -17,7 +17,7 @@
   <scriptfile>supermonitoring.script.php</scriptfile> 
   
   <updateservers>
-    <server type="extension" priority="2" name="Supermonitoring Update Site">http://githubusercontent.stronazen.pl/joomla-extensions/master/manifest.xml</server>
+    <server type="extension" priority="2" name="Supermonitoring Update Site">https://github.com/supermonitoring/supermonitoring-JoomlaExtension/blob/master/supermonitoring.xml</server>
   </updateservers>
 
   <install> <!-- Runs on install -->
