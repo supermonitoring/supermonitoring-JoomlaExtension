@@ -4,7 +4,7 @@
  * @version $Id: controller.php 100 2015-01-13 19:00:00Z Łukasz Chrzanowski $
  * @author SITEIMPULSE
  * @copyright Copyright (C) SITEIMPULSE (https://www.siteimpulse.com/). All rights reserved.
- * @license GNU/GPLv3 https://www.gnu.org/licenses/gpl-3.0.html
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 **/
 
 // No direct access to this file
