@@ -6,7 +6,7 @@
   <name>COM_SUPERMONITORING</name>
   <creationDate>April 2024</creationDate>
   <author>SITEIMPULSE</author>
-  <authorEmail></authorEmail>
+  <authorEmail>office@siteimpulse.com</authorEmail>
   <authorUrl>https://www.siteimpulse.com/</authorUrl>
   <copyright>Copyright (C) SITEIMPULSE</copyright>
   <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
@@ -40,10 +40,10 @@
     <!-- Administration Menu Section -->
     <menu>COM_SUPERMONITORING_MENU</menu>
     <submenu>
-      <menu alt="COM_SUPERMONITORING_SUBMENU_SERVICES" link="option=com_supermonitoring&amp;view=services">COM_SUPERMONITORING_SUBMENU_SERVICES</menu>
-      <menu alt="COM_SUPERMONITORING_SUBMENU_SETTING" link="option=com_supermonitoring&amp;view=setting">COM_SUPERMONITORING_SUBMENU_SETTING</menu>
-      <menu alt="COM_SUPERMONITORING_SUBMENU_CONTACTS" link="option=com_supermonitoring&amp;view=contacts">COM_SUPERMONITORING_SUBMENU_CONTACTS</menu>
-      <menu alt="COM_SUPERMONITORING_SUBMENU_SETTINGS" link="option=com_supermonitoring">COM_SUPERMONITORING_SUBMENU_SETTINGS</menu>
+      <menu link="option=com_supermonitoring&amp;view=services">COM_SUPERMONITORING_SUBMENU_SERVICES</menu>
+      <menu link="option=com_supermonitoring&amp;view=setting">COM_SUPERMONITORING_SUBMENU_SETTING</menu>
+      <menu link="option=com_supermonitoring&amp;view=contacts">COM_SUPERMONITORING_SUBMENU_CONTACTS</menu>
+      <menu link="option=com_supermonitoring">COM_SUPERMONITORING_SUBMENU_SETTINGS</menu>
     </submenu>
     
     <files folder="admin">
